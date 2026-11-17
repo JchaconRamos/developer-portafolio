@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de desarrollo web Full Stack. Proyectos, habilidades y contacto.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Tu Nombre | Desarrollador Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio"><span class="brand-mark">{"</span> dev<span class="accent">.</span></a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a class="nav-cta" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Disponible para oportunidades</p>
+        <h1>Hola, soy <span class="gradient-text">Tu Nombre.</span><br>Desarrollador <span class="gradient-text">Full Stack</span></h1>
+        <p class="hero-description">Construyo aplicaciones web funcionales, intuitivas y enfocadas en resolver problemas reales. Me interesa transformar ideas en soluciones digitales.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Ver proyectos <span>↗</span></a>
+          <a class="button button-secondary" href="#contacto">Contactarme</a>
+        </div>
+        <div class="hero-meta"><span>📍 Guatemala</span><span>✦ En constante aprendizaje</span></div>
+      </div>
+      <div class="hero-card" aria-label="Resumen de tecnologías">
+        <div class="code-window">
+          <div class="window-bar"><i></i><i></i><i></i><span>developer.js</span></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Tu Nombre"</span>,
+  role: <span class="code-green">"Full Stack Developer"</span>,
+  skills: [
+    <span class="code-green">"JavaScript"</span>,
+    <span class="code-green">"React"</span>,
+    <span class="code-green">"Node.js"</span>,
+    <span class="code-green">"MySQL"</span>
+  ],
+  passion: <span class="code-green">"Building solutions"</span>
+};
+
+<span class="code-purple">export default</span> developer;</code></pre>
+        </div>
+        <div class="floating-chip chip-one">⌘ Código limpio</div>
+        <div class="floating-chip chip-two">✦ Aprendizaje continuo</div>
+      </div>
+    </section>
+
+    <section class="section container" id="sobre-mi">
+      <div class="section-heading"><p class="eyebrow">01 / SOBRE MÍ</p><h2>Desarrollo con <span class="gradient-text">propósito.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead">Soy un apasionado por la tecnología y el desarrollo de software. Disfruto analizar problemas, aprender nuevas herramientas y crear soluciones que aporten valor.</p>
+        <div class="about-detail">
+          <p>Actualmente estoy fortaleciendo mis habilidades en desarrollo Full Stack, trabajando con tecnologías web, programación y bases de datos.</p>
+          <p>Mi experiencia en el área de TI también me permite comprender las necesidades técnicas y operativas de una organización.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="habilidades">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / HABILIDADES</p><h2>Mi caja de <span class="gradient-text">herramientas.</span></h2><p class="section-intro">Tecnologías que conozco y herramientas que estoy incorporando a mi flujo de trabajo.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-icon">⌘</span><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · React (en aprendizaje)</p></article>
+          <article class="skill-card"><span class="skill-icon">⚙</span><h3>Backend</h3><p>Node.js · Express (en aprendizaje) · Java · C++</p></article>
+          <article class="skill-card"><span class="skill-icon">▤</span><h3>Bases de datos</h3><p>MySQL · Modelado relacional · SQL</p></article>
+          <article class="skill-card"><span class="skill-icon">⌁</span><h3>Herramientas</h3><p>Git · GitHub · Visual Studio Code · Postman (en aprendizaje)</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="proyectos">
+      <div class="section-heading"><p class="eyebrow">03 / PROYECTOS</p><h2>Trabajo seleccionado<span class="accent">.</span></h2><p class="section-intro">Proyectos personales y académicos. Esta sección irá creciendo conforme publique nuevas aplicaciones.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured">
+          <div class="project-visual inventory-visual"><div class="mock-top"><span>Overview</span><span>•••</span></div><div class="mock-stats"><i></i><i></i><i></i></div><div class="mock-chart"><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div></div>
+          <div class="project-content"><p class="project-type">EN DESARROLLO · FULL STACK</p><h3>NexInventory</h3><p>Sistema de gestión de inventario con productos, movimientos de existencias y reportes.</p><div class="tags"><span>React</span><span>Node.js</span><span>MySQL</span></div><span class="project-link coming-soon">Próximamente</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual support-visual"><div class="ticket"><span>INC-024</span><strong>Acceso a sistema</strong><small>En proceso</small></div><div class="ticket"><span>INC-025</span><strong>Equipo sin conexión</strong><small>Resuelto</small></div></div>
+          <div class="project-content"><p class="project-type">PLANIFICADO · FULL STACK</p><h3>NexSupport</h3><p>Plataforma de seguimiento de incidencias y solicitudes de soporte técnico.</p><div class="tags"><span>JavaScript</span><span>Express</span><span>MySQL</span></div><span class="project-link coming-soon">Próximamente</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual finance-visual"><div class="finance-number"><small>Balance disponible</small><strong>Q 8,450.00</strong><div class="finance-bars"><i></i><i></i><i></i><i></i><i></i></div></div></div>
+          <div class="project-content"><p class="project-type">PLANIFICADO · FULL STACK</p><h3>NexFinance</h3><p>Aplicación para organizar ingresos, gastos, presupuestos y metas de ahorro.</p><div class="tags"><span>React</span><span>API REST</span><span>MySQL</span></div><span class="project-link coming-soon">Próximamente</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="container contact-inner">
+        <p class="eyebrow">04 / CONTACTO</p>
+        <h2>¿Construimos algo <span class="gradient-text">juntos?</span></h2>
+        <p>Estoy abierto a oportunidades laborales, colaboraciones y proyectos freelance.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:tu-correo@ejemplo.com">Escríbeme un correo ↗</a>
+          <a class="button button-secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a class="button button-secondary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+        <p class="contact-note">Recuerda reemplazar los enlaces y datos de ejemplo por los tuyos.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#inicio">{" dev<span class="accent">.</span></a><p>Diseñado y desarrollado por Tu Nombre · <span id="year"></span></p><a href="#inicio">Volver arriba ↑</a></div></footer>
+</body>
+</html>
